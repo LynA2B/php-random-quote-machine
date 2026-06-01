@@ -11,7 +11,7 @@ document.getElementById("fetchData").addEventListener("click", () => {
   // Clear out any stale errors from a previous click attempt
   clearDisplayErrors();
 
-  fetch("server.php")
+  fetch("https://newmanix.com/classes/it102/random_quotes.php")
     .then((res) => {
       // CRITICAL: Fetch promises do NOT reject on HTTP errors (like 404 or 500).
       // We must explicitly evaluate the response status flag.
