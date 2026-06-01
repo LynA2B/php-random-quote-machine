@@ -27,4 +27,6 @@ $quotes = [
 ];
 
 //4. Pick a random quote and output it 
+$randomIndex = array_rand($quotes);
+echo $quote[$randomIndex];
 ?>
